@@ -26,6 +26,7 @@
 		2C0BBEAB1BC42626003E6F06 /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BBE981BC42626003E6F06 /* multiply.png */; settings = {ASSET_TAGS = (); }; };
 		2C0BBEAC1BC42626003E6F06 /* space-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BBE991BC42626003E6F06 /* space-bg.png */; settings = {ASSET_TAGS = (); }; };
 		2C0BBEAD1BC42626003E6F06 /* subtract.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BBE9A1BC42626003E6F06 /* subtract.png */; settings = {ASSET_TAGS = (); }; };
+		2C0BBEAF1BC43313003E6F06 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BBEAE1BC43313003E6F06 /* btn.wav */; settings = {ASSET_TAGS = (); }; };
 		2CE1A07F1BC3F197005342DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1A07E1BC3F197005342DD /* AppDelegate.swift */; };
 		2CE1A0811BC3F197005342DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE1A0801BC3F197005342DD /* ViewController.swift */; };
 		2CE1A0841BC3F197005342DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE1A0821BC3F197005342DD /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		2C0BBE981BC42626003E6F06 /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiply.png; sourceTree = "<group>"; };
 		2C0BBE991BC42626003E6F06 /* space-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-bg.png"; sourceTree = "<group>"; };
 		2C0BBE9A1BC42626003E6F06 /* subtract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtract.png; sourceTree = "<group>"; };
+		2C0BBEAE1BC43313003E6F06 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		2CE1A07B1BC3F197005342DD /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE1A07E1BC3F197005342DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CE1A0801BC3F197005342DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				2CE1A08A1BC3F197005342DD /* Info.plist */,
 				2C0BBE871BC42626003E6F06 /* retro-graphics */,
 				2CE1A0901BC3FEDC005342DD /* Minecraft.ttf */,
+				2C0BBEAE1BC43313003E6F06 /* btn.wav */,
 			);
 			path = RetroCalculator;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				2C0BBE9E1BC42626003E6F06 /* 3.png in Resources */,
 				2C0BBEAB1BC42626003E6F06 /* multiply.png in Resources */,
 				2C0BBEAD1BC42626003E6F06 /* subtract.png in Resources */,
+				2C0BBEAF1BC43313003E6F06 /* btn.wav in Resources */,
 				2CE1A0861BC3F197005342DD /* Assets.xcassets in Resources */,
 				2C0BBEA71BC42626003E6F06 /* counter.png in Resources */,
 				2C0BBEA41BC42626003E6F06 /* 9.png in Resources */,
