@@ -203,8 +203,12 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se0-xg-E9T">
-                                <rect key="frame" x="210" y="96" width="200" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se0-xg-E9T">
+                                <rect key="frame" x="211" y="97" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6b6-Lk-tfd"/>
+                                    <constraint firstAttribute="width" constant="200" id="R3l-o3-X0e"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -214,9 +218,11 @@
                             <constraint firstItem="Ap7-r0-Ze8" firstAttribute="centerY" secondItem="CEN-Bc-a64" secondAttribute="centerY" constant="35" id="1Vb-1J-jFN"/>
                             <constraint firstAttribute="trailing" secondItem="8Ic-C2-rzb" secondAttribute="trailing" id="2j3-ms-igJ"/>
                             <constraint firstAttribute="trailing" secondItem="a6P-Hk-8oE" secondAttribute="trailing" id="3hm-rZ-QQB"/>
+                            <constraint firstItem="se0-xg-E9T" firstAttribute="top" secondItem="CEN-Bc-a64" secondAttribute="top" constant="18" id="5Cr-Ox-YGl"/>
                             <constraint firstItem="CEN-Bc-a64" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CFw-ij-Y4P"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8Ic-C2-rzb" secondAttribute="bottom" id="S5P-wl-Sd2"/>
                             <constraint firstItem="Ap7-r0-Ze8" firstAttribute="centerX" secondItem="CEN-Bc-a64" secondAttribute="centerX" id="XOI-Sj-bgz"/>
+                            <constraint firstItem="CEN-Bc-a64" firstAttribute="trailing" secondItem="se0-xg-E9T" secondAttribute="trailing" constant="10" id="c3F-Ug-hsV"/>
                             <constraint firstItem="a6P-Hk-8oE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="c68-dk-bSx"/>
                             <constraint firstItem="8Ic-C2-rzb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="f2d-f3-3sC"/>
                             <constraint firstItem="CEN-Bc-a64" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gaI-m6-dXK"/>
@@ -225,36 +231,6 @@
                         </constraints>
                     </view>
                 </viewController>
-                <stackView opaque="NO" contentMode="scaleToFill" spacing="15" id="whV-G0-nBC">
-                    <rect key="frame" x="0.0" y="0.0" width="217" height="63"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="66" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-Zb-xsN">
-                            <rect key="frame" x="0.0" y="0.0" width="61" height="63"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="63" id="Qys-KV-7av"/>
-                                <constraint firstAttribute="width" constant="61" id="yuT-2n-4CK"/>
-                            </constraints>
-                            <state key="normal" image="7"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="66" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVZ-pj-7p9">
-                            <rect key="frame" x="76" y="0.0" width="63" height="63"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="63" id="Fm5-kP-Pdt"/>
-                                <constraint firstAttribute="height" constant="61" id="HVD-U2-aeY"/>
-                            </constraints>
-                            <state key="normal" image="8"/>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="66" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hef-gf-ayq">
-                            <rect key="frame" x="154" y="0.0" width="63" height="63"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="61" id="IgM-fe-gIU"/>
-                                <constraint firstAttribute="width" constant="63" id="OgC-sL-Moy"/>
-                            </constraints>
-                            <state key="normal" image="9"/>
-                        </button>
-                    </subviews>
-                </stackView>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="325" y="387"/>
